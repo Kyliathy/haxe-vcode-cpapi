@@ -1,0 +1,3 @@
+{
+  "haxe.configurations": [["build-cs.hxml"], ["build-cpp.hxml"]]
+}

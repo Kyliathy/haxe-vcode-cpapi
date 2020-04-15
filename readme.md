@@ -7,10 +7,18 @@ The design philosophy is to have separate build tasks for each target, including
 # Overall structure
 
 Open the `project` directory with Visual Studio Code. The structure of the directory is:
-- .vscode - contains Visual Studio Code settings. 
-- generated - contains generated target source code.
-- src - contains the Haxe source code.
-- 
+- /.vscode/ - contains Visual Studio Code settings. 
+  - launch.json - launch configurations for targets that can be launched with debugger.
+    - ISSUE WITH CONFIGURAITON 1: Haxe Interpreter DOES NOT WORK.
+    - ISSUE WITH CONFIGURATION 2: HXCPP DOES NOT WORK.
+  - settings.json - contains project settings. Currently listing available HXMLs.
+  - tasks.json - lists the tasks that the project can run.
+    - Build CPP - WORKING!
+    - Build C# - WORKING!
+- /generated/ - contains generated target source code.
+- /src/ - contains the Haxe source code.
+- build-cpp.hxml - build command for CPP target.
+- build-cs.hxml - build command for C# target.
 
 CURRENTLY UNDER CONSTRUCTION.
 

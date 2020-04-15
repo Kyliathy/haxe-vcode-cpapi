@@ -1,0 +1,4 @@
+-lib hxcpp-debug-server
+-cp src
+-main Main
+-cpp generated/cpp

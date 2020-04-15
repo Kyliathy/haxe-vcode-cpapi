@@ -1,0 +1,38 @@
+{
+  "whitespace": {
+    "colonPolicy": "after",
+    "caseColonPolicy": "after",
+    "objectFieldColonPolicy": "after",
+    "typeHintColonPolicy": "after",
+    "addLineCommentSpace": false
+  },
+  "emptyLines": {
+    "finalNewline": false,
+    "afterLeftCurly": "keep",
+    "beforeRightCurly": "keep"
+  },
+  "wrapping": {
+    "anonFunctionSignature": {
+      "defaultAdditionalIndent": 2
+    }
+  },
+  "sameLine": {
+    "ifElse": "keep",
+    "doWhile": "next",
+    "caseBody": "next",
+    "functionBody": "next",
+    "anonFunctionBody": "next"
+  },
+  "indentation": {
+    "character": "tab"
+  },
+  "lineEnds": {
+    "blockCurly": {
+      "leftCurly": "both",
+      "rightCurly": "both"
+    },
+    "leftCurly": "after",
+    "rightCurly": "both",
+    "emptyCurly": "break"
+  }
+}
